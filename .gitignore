@@ -1,0 +1,51 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables and credentials
+.env
+*.secret
+
+# Logs
+logs/
+*.log
+
+# Data files
+*.csv
+*.xlsx
+*.json
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Python package builds
+dist/
+build/
+*.egg-info/
+
+# Docker files
+docker-compose.override.yml
+*.dockerfile
+
+# Streamlit and Flask cache
+.streamlit/
+instance/
+
+# VS Code and IDE files
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
